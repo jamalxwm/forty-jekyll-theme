@@ -1,16 +1,16 @@
 # site settings
-title: Forty
+title: Jamal X WM
 subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
+email: jamalxwm@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: https://jamalxwm.github.io/
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
+street_address: 
+city: Manchester
+state: 
 zip_code: 55555
-country: United States of America
+country: United Kingdom
 phone: (716) 555-5555
 
 # homepage tiles

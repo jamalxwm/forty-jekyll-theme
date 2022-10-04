@@ -2,7 +2,7 @@
 layout: post
 title: Papers (FE)
 description: A Reddit-style web app built with React
-image: assets/images/pic11.jpg
+image: assets/images/paperscover.png
 nav-menu: true
 ---
 
@@ -35,52 +35,63 @@ nav-menu: true
 		<div class="table-wrapper">
 			<table>
 				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Description</th>
-						<th>Price</th>
+					<tr style="display:flex;background-color:#fff;justify-content:center;align-item:center">
+                        
+						<th style="color:#242943">Links</th>
+                        	
 					</tr>
 				</thead>
-				<tbody>
+				<tbody style="text-align:center">
 					<tr>
-						<td>Item1</td>
-						<td>Ante turpis integer aliquet porttitor.</td>
-						<td>29.99</td>
+						<td><a href="https://papersjxwm.netlify.app/" target="_blank"><i class="fa-solid fa-globe"></i> Live site</a></td>	
 					</tr>
-					<tr>
-						<td>Item2</td>
-						<td>Vis ac commodo adipiscing arcu aliquet.</td>
-						<td>19.99</td>
+                    <tr>
+						<td><a href="https://github.com/jamalxwm/fe-nc-news" target="_blank" class="icon fa-github"> Codebase</a></td>	
 					</tr>
-					<tr>
-						<td>Item3</td>
-						<td> Morbi faucibus arcu accumsan lorem.</td>
-						<td>29.99</td>
+                    <tr>
+						<td><a href="https://trello.com/b/72phW1xw/jamals-nc-news-fe" target="_blank"><i class="fa-brands fa-trello"></i> Tickets</a></td>	
 					</tr>
-					<tr>
-						<td>Item4</td>
-						<td>Vitae integer tempus condimentum.</td>
-						<td>19.99</td>
+                    <thead>
+					<tr style="display:flex;background-color:#fff;justify-content:center">
+                        
+						<th style="color:#242943">Tech Stack</th>
+                        	
 					</tr>
-					<tr>
-						<td>Item5</td>
-						<td>Ante turpis integer aliquet porttitor.</td>
-						<td>29.99</td>
+				</thead>
+                    <tr style="text-align:center">
+						<td>
+                            <ul style="list-style-type:none">
+                                <li><i class="fa-brands fa-react"></i> React</li>
+                                <li>Axios</li>
+                                <li>Material UI</li>
+                            </ul>
+                        </td>	
+					</tr>
+                    <thead>
+					<tr style="display:flex;background-color:#fff;justify-content:center">
+                        
+						<th style="color:#242943">By the numbers</th>
+                        	
+					</tr>
+				</thead>
+                    <tr style="text-align:center">
+						<td><i class="icon fa-calendar"> 10 days to complete</i></td>	
+					</tr>
+                    <tr style="text-align:center">
+						<td><i class="icon fa-coffee"> 16 cups of coffee</i></td>	
+					</tr>
+					<tr style="text-align:center">
+						<td><i class="fa-solid fa-cookie-bite"></i> 23 sweets</td>	
 					</tr>
 				</tbody>
-				<tfoot>
-					<tr>
-						<td colspan="2"></td>
-						<td>100.00</td>
-					</tr>
-				</tfoot>
+				
 			</table>
 		</div>
 	</div>
 </div>
 
 	<h2>The build</h2>
-	<p><span class="image left"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span>Initially I struggled with frontend. Working on the assumption frontend would be entirely about "making things look pretty" I found myself in for a rude awakening when dealing with the DOM. Even after learning how React negated the need for directly dealing with the DOM, I still awaited the point where frontend became less technical and more beautiful.<br/><br/>By week two of frontend module I accepted that was never going to be the case.<br/><br/>Having accepted that frontend would be harder than backend, I started this build entirely with MUI components to avoid losing my sanity in a maze of flexboxes. MUI's syntax wasn't intuitively simple as I'd hoped so I relied heavily on YouTube tutorials to push through this.<br/><br/>At the start of the project we drew plans for our components, paying special attention to props and states that would need to be passed around. This was not only for our own benefits in devlopment but we'd also need to submit this along with any helpdesk requests.<br/><br/>Naturally, as a first timer my plan was pretty botched which I discovered on my first helpdesk call where I found some of my states were held too low or too high. In fairness it's difficult to understand what any of this means until you get stuck in and break things and figure out what went wrong.<br/><br/>If you're not breaking things, you're probably not learning.<br/><br/>By the end of the week, I had a very ugly but working app and two outstanding tickets to complete after the bootcamp.<br/><br/>Once the pressure of project week had passed and I was free to revisit this sprint in my free time, I challnged myself to make some as beautiful as it was technical. Inspired by <a href="https://papers-blog-template.webflow.io/ready-made-pages/company-blog" target="_blank">this Webflow theme</a> I stripped back as many of the orignal MUI components as possible and set myself a goal of trying to rebuild this theme as best as I could from scratch. I'm happy to say I succeeded without getting lost in a flexbox maze! </p>
+	<p><span class="image left"><img src="{% link assets/images/pic12.jpg %}" alt="" /></span>Initially I struggled with frontend. Working on the assumption frontend would be entirely about "making things look pretty" I found myself in for a rude awakening when dealing with the DOM. Even after learning how React negated the need for directly dealing with the DOM, I still awaited the point where frontend became less technical and more beautiful.<br/><br/>By week two of frontend module I accepted that was never going to be the case.<br/><br/>Having accepted that frontend would be harder than backend, I started this build entirely with MUI components to avoid losing my sanity in a maze of flexboxes. MUI's syntax wasn't intuitively simple as I'd hoped so I relied heavily on YouTube tutorials to push through this.<br/><br/>At the start of the project we drew plans for our components, paying special attention to props and states that would need to be passed around. This was not only for our own benefits in devlopment but we'd also need to submit this along with any helpdesk requests.<br/><br/>Naturally, as a first timer my plan was pretty botched which I discovered on my first helpdesk call where I found some of my states were held too low or too high. In fairness it's difficult to understand what any of this means until you get stuck in and break things and figure out what went wrong.<br/><br/>If you're not breaking things, you're probably not learning.<br/><br/>By the end of the week, I had a very ugly but working app and two outstanding tickets to complete after the bootcamp.<br/><br/>Once the pressure of project week had passed and I was free to revisit this sprint in my free time, I challnged myself to make some as beautiful as it was technical. Inspired by <a href="https://papers-blog-template.webflow.io/ready-made-pages/company-blog" target="_blank">this Webflow theme</a> I stripped back as many of the orignal MUI components as possible and set myself a goal of trying to rebuild this theme as best as I could from scratch. I'm happy to say I succeeded without getting lost in a flexbox maze! </p>
 
 <h2 id="elements">The Wins</h2>
 	<div class="row">

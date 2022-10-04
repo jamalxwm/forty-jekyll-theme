@@ -5,8 +5,8 @@ email: jamalxwm@gmail.com
 description: Incurable explorer. Recovering gifted student. <br/>Diva of departures. Junior Software Engineer.
 baseurl: # the subpath of your site, e.g. /blog
 url: https://jamalxwm.github.io/
-author:
-street_address: Store Street
+author: Jamal Whorms-MonDésir
+street_address: 
 city: Manchester
 state:
 zip_code:
@@ -15,7 +15,7 @@ phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 0
+tiles-count: 6
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -42,3 +42,6 @@ exclude:
   - LICENSE.md
   - CONTRIBUTING.md
   - README.md
+  - elements.md
+  - generic.md
+  - landing.md

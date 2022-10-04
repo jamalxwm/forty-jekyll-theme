@@ -1,118 +1,135 @@
 ---
-layout: post
+layout: postalt
 title: Hallpass App
 description: A marketplace for tutors built with React Native
-image: assets/images/pic11.jpg
+image: assets/images/hallpasscover.jpg
 nav-menu: true
 ---
 
 <!-- Main -->
 <div id="main" class="alt">
 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/_nZw0vASIPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <section id="one">
 	<div class="inner">
 
 <!-- Content -->
 <div class="row">
-		<div class="6u 12u$(small)">
+	<div class="6u 12u$(small)">
 		<div style="text-align: center">
 			<h2><em>"It's not about what you know. It's about what you know you can Google."</em></h2>
 			<h4>-Leonie Phelps</h4>
 		</div>
 		<h3>TL;DR</h3>
-		<p>Papers (Backend) is an API built using Express and PostgreSQL the programatically allow for accessesing and updating a database of articles, comments, users, and topics.</h3>
+		<p>Hallpass App is a mobile app connecting learners looking for personalised tuition in a specialist skill with available local and virtual tutors. It was built by a team of four using React Native and Firebase as part of a Northcoders final project.  </p>
+        <h3>Project objectives</h3>
 			<ul>
-				<li>Build a product using two technologies not learned on the course</li>
-				<li>Employ best practices for planning and development </li>
+				<li>Build an MVP using two technologies not learned on the course</li>
+				<li>Continue using agile methodologies for planning and development </li>
+                <li>Learn faster and break things as Northcoders' support will be limited </li>
 			</ul>
-		<h3>Summary</h3>
-		<p>Fresh off the back of a prolonged tour through callback hell and a stop through middleware midlands, our first solo sprint was to build an API for what would later become a fully-functioning Reddit-style web app in our frontend project. <br/><br/>This one week project entailed building a database with <strong>PostgreSQL</strong>, building a server and endpoints using <strong>Express.js</strong> and <strong>node-postgres</strong>, and extensive testing with <strong>Jest</strong> and <strong>Supertest</strong>. All from scratch. So no pressure there.<br/><br/> What a week to catch Covid!</p>
-		</div>
+		
+	</div>
 	<div class="6u$ 12u$(small)">
 		<div class="table-wrapper">
 			<table>
 				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Description</th>
-						<th>Price</th>
+					<tr style="display:flex;background-color:#fff;justify-content:center;align-item:center">
+                        
+						<th style="color:#242943">Links</th>
+                        	
 					</tr>
 				</thead>
-				<tbody>
+				<tbody style="text-align:center">
 					<tr>
-						<td>Item1</td>
-						<td>Ante turpis integer aliquet porttitor.</td>
-						<td>29.99</td>
+						<td><a href="https://youtu.be/_nZw0vASIPk" target="_blank" class="icon fa-youtube"> Product Demo</a></td>	
 					</tr>
-					<tr>
-						<td>Item2</td>
-						<td>Vis ac commodo adipiscing arcu aliquet.</td>
-						<td>19.99</td>
+                    <tr>
+						<td><a href="https://github.com/jamalxwm/hallpass-app" target="_blank" class="icon fa-github"> Codebase</a></td>	
 					</tr>
-					<tr>
-						<td>Item3</td>
-						<td> Morbi faucibus arcu accumsan lorem.</td>
-						<td>29.99</td>
+                    <thead>
+					<tr style="display:flex;background-color:#fff;justify-content:center">
+                        
+						<th style="color:#242943">Tech Stack</th>
+                        	
 					</tr>
-					<tr>
-						<td>Item4</td>
-						<td>Vitae integer tempus condimentum.</td>
-						<td>19.99</td>
+				</thead>
+                    <tr style="text-align:center">
+						<td>
+                            <ul style="list-style-type:none">
+                                <li><i class="fa-brands fa-react"></i> React Native</li>
+                                <li><i class="fa-regular fa-laptop-mobile"></i> Expo</li>
+                                <li><i class="fa-solid fa-database"></i> Firebase</li>
+                                <li><i class="fa-solid fa-database"></i> Google Cloud Trigger Functions</li>
+                                <li><i class="fa-solid fa-map"></i> Google Maps API</li>
+                                <li><i class="fa-solid fa-camera-web"></i> Whereby API</li>
+                            </ul>
+                        </td>	
 					</tr>
-					<tr>
-						<td>Item5</td>
-						<td>Ante turpis integer aliquet porttitor.</td>
-						<td>29.99</td>
+                    <thead>
+					<tr style="display:flex;background-color:#fff;justify-content:center">
+                        
+						<th style="color:#242943">By the numbers</th>
+                        	
+					</tr>
+				</thead>
+                    <tr style="text-align:center">
+						<td><i class="icon fa-calendar"> 10 days to complete</i></td>	
+					</tr>
+                    <tr style="text-align:center">
+						<td><i class="icon fa-coffee"> 106 cups of coffee</i></td>	
+					</tr>
+					<tr style="text-align:center">
+						<td><i class="icon fa-moon"> 8 late nights</i></td>	
+					</tr>
+                    <tr style="text-align:center">
+						<td><i class="fa-solid fa-people-group"></i> 1 dreamy team</td>	
+					</tr>
+                    <tr style="text-align:center">
+						<td><i class="fa-solid fa-person-harassing"></i> 0 arguments</td>	
 					</tr>
 				</tbody>
-				<tfoot>
-					<tr>
-						<td colspan="2"></td>
-						<td>100.00</td>
-					</tr>
-				</tfoot>
+				
 			</table>
 		</div>
-	</div>
 </div>
+        <h3>Summary</h3>
+		<p>After 10 arduous week of ceaseless coding,  sleeping, repeating—punctuated only by healthy doses of crying and seeking dopamine from the northcoders snack bowl and/or the bottom of an after work pint glass—we survived to meet the dreaded final project weeks. <br/><br/>
 
-	<h2>The build</h2>
-	<p><span class="image left"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span>I long ago accepted that the whole world is one giant Covid waiting room but after fending off fate for over two, <em>'The Rona'</em> finally caught me. This wasn't a particularly convenient time for a pox on my house but, nonetheless, we move.<br/><br/>After some mindless staring into the black mirror looking for  where to get started, I managed to skeleton a working <strong>model</strong> and <strong>controller</strong> for the <a href="https://trello.com/c/SvoM2Ofe" target="_blank">first API call</a> without much fuss. I submitted it for pull request and awaited the feedback from underneath my duvet.<br/><br/>For being a predominantly visual learner, I found it remarkably easy to work with invisible databases. The next several tickets became a sort of lather, rinse, repeat excercise. And for the first time on the course, even the practice of writing tests became cogently clear now that I was working with salient data and tangible outputs.<br/><br/>I truly wish I could use this space to describe process of seeding the database, spinning up the server, and writing SQL queries but between the covidian haze and how quickly acquainted I got with everything, not much—bar the points below—has surfaced in my memory.</p>
+        Dreaded because, now, everything relied solely on the imperceptible competence and bravado in ourselves and our yet-to-be-defined team members. What we chose to build and how we’d build it was entirely up to us to decide. Because the imperative was to use technologies not taught on the bootcamp, it was made clear at the start that the level of support helpdesk calls could offer would vary according to the responder’s own experience. Almost without exception, we’d be left entirely at the whim of developer docs and YouTube tutorials (as capable developers are wont to do).
+        <br/><br/>
+        By sheer luck I landed myself in a dream team with three very coolheaded and skilful engineers. There’d be no vainglorious ego clashes in pursuit of our decided build, Hallpass, an ‘Uber for tutors’.
+        <br/><br/>
+        Our solution was as simple as it was beautiful. A marketplace matching capable tutors with those wanting to learn or advance a new skill. While finding a local tutor for academic subjects may be somewhat easy (depending on your location), where does one look for personalised tuition in a niche or advanced skill? Hallpass solves the former by allowing users to find local tutors available in-person and achieves the latter by allowing tutees to learn virtually via video call from directly within the React Native app.  
+        <br/><br/>
+        To further our philosophy of “learn anything anywhere”,  a proposed feature added a library of borrowable equipment to make learning any new skill accessible and affordable without the usual upfront sunk costs.
+        <br/><br/>
+        Referencing the ubiquitous terms & conditions of any educational or employment contract, our mentor stressed that Northcoders owns the IP to whatever we produce and emphasised that “this may be too good for a final project”.</p>
 
-<h2 id="elements">The Wins</h2>
-	<div class="row">
-	
-	<div class="6u 12u$(small)">
-		<h3>Querying the information schema</h3>
-		<p>By day three, I was so comfortable with writing SQL queries that I was hungry for something more. I spotted an opportunity to advance my learning on <a href="https://trello.com/c/hM5JM7aQ" target="_blank">ticket #11</a>. Rather than hardcoding the topics into an array, the bare minimum needed to complete this ticket and prevent SQL injection, I figured out how to query the table's metadata via information schema for the topics list instead. Ultimately, this stood me well come frontend project where the topic values were different.</p>
-	</div>
-	<div class="6u 12u$(small)">
-		<h3>Finishing on schedule</h3>
-		<p>Despite being full of Covid and having to sit out day for rest, I managed to finish all the core tasks within the week.</p>
-	</div>
+	<h3>The build</h3>
+	<p><span class="image left"><img src="{% link assets/images/hallpassteam.jpg %}" alt="the hallpass team" /></span>Despite filling three weeks in our schedule the reality was that we’d have only 10 days to build our MVP. Bookending the start of that week and half was a bank holiday, and one day each, for pitch development, practice resolving issues git conflict, more agile engingeering, prep and spiking. The final two days were spent recording and watching our product demos.  
+<br/><br/>
+Spiking took much longer than expected as some technologies specifically sendbird for handling video calls, were less than compatible with our Expo managed workflow. 
+<br/><br/>
+We quickly found ourselves revisiting any proposed packages that required access to native modules and found building a truly functional in-app chat and video calling feature, to the standard we would’ve liked, would be a time consuming task. On this we made trade offs using Whereby’s API inside an iframe and a simulated in-app chat.
+<br/><br/>
+Firebase became a two day long sticking point as many of the tutorials we found demonstrated syntax for Firebase 8 which we had to figure out how to refactor for Firebase 9. Luckily we found Google’s documentation to be superbly clear. 
+<br/><br/>
+While working through this Firebase saga, A true defining moment arose when I ecstatically jumped out of the corner office we commandeered shouting that I’d finally got a NEW error. Seemingly a hallmark of progress. 
+<br/><br/>
+Two separate NC mentors independently suggested NoSQL for our solution which we eventually came to rethink when we realised a relational database would’ve been much more efficient in building our equipment library feature.
+<br/><br/>
+As we continued to pair program throughout the project working on individual tickets we never encountered any major git conflicts. The one conflict that did emerge was solved with a quick and easy rebase. 
+<br/><br/>
+By our final build day, we were comfortably left with styling as our only major task. As we stood back in awe of what we’d accomplished we all wondered how we managed all this in just 10 days. To which Leonie emphatically announced “it’s not what you know. It’s what you know you can Google”. 
+<br/><br/>
+Truer words were never spoken. 
+</p>
+
+
+
 </div>
-	<h2 id="elements">The Challenges</h2>
-	<div class="row">
-	
-	<div class="4u 12u$(medium)">
-		<h3>Testing the tragic path</h3>
-		<p>While writing tests had admittedly become easier, my tutor stressed testing more sad paths. "What if a user misspells 'inc'?" he stressed in one of his pull request comments. At this point I realised I won't always be writing code for end users who have the guiding hand of a UI and so I had to consider more of the ridiculous things that could go wrong and test for some truly tragic paths.</p>
-	</div>
-	<div class="4u 12u$(medium)">
-		<h3>Missing a pair of eyes</h3>
-		<p>As my first solo sprint, I came to truly embrace the value of pair programming after spending hours trying to resolve an object destructuring issue. An expected return value that was meant to be an array kept coming back as an object. After finally giving up and submitting the pull request anyway, the comments in the feedback pointed out exactly which line in which file was causing the issue.     </p>
-	</div>
-	<div class="4u$ 12u$(medium)">
-		<h3>Getting to grips with <code>next</code></h3>
-		<p>It's easy to miss that dev packages can do some clever things. As an overthinker, I struggled to comprehend the magic that is the <code>next</code> function in Express.js. "BUT HOW DOES IT KNOW WHAT TO DO?!" Eventually, I just had to accept that some people are just as good at overthinking as I am.</p>
-	</div>
-</div>
-<h2 id="elements">What I'd change</h2>
-		<h3>Better to async/await</h3>
-		<p>Throughout most the project I stuck to what I know works, which is promise chains. Funny enough, even our tutors commented that most the cohort didn't venture into using async/await despite having a much cleaner syntax. Around the point that was diving into information schema I decided to give it a whirl and realised I had been scribing long promise chains needlessly. If theres's one thing I'd absolutely do differently its this</p>
-
-
-
 </div>
 </section>
 

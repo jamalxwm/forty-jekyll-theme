@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Projectify
-description: A React app thats finds listening their perfect nights out
+description: Raving with algorithms
 image: assets/images/projectifybanner.png
 nav-menu: true
 ---

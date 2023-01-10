@@ -42,7 +42,7 @@ nav-menu: true
 				</thead>
 				<tbody style="text-align:center">
 					<tr>
-						<td><a href="https://be-nc-news-jwm.herokuapp.com/api" target="_blank"><i class="fa-solid fa-globe"></i> Live site</a></td>	
+						<td><a href="https://papersjxwm.cyclic.app" target="_blank"><i class="fa-solid fa-globe"></i> Live site</a></td>	
 					</tr>
                     <tr>
 						<td><a href="https://github.com/jamalxwm/be-nc-news" target="_blank" class="icon fa-github"> Codebase</a></td>	
